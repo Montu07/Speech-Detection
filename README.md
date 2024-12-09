@@ -9,19 +9,16 @@ The primary aim is to create an efficient classifier using models like SVM, LSTM
 How to Run the Code
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/your-repo-link.git
 cd your-repo-folder
 Install the required Python libraries:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Run the preprocessing script:
 
-bash
-Copy code
+
 python preprocess.py
 This step cleans the dataset by:
 
@@ -31,17 +28,13 @@ Tokenizing and lemmatizing the text
 Train the model:
 
 For Binary Classification:
-bash
-Copy code
+
 python train_binary.py
 For Multi-Class Classification:
-bash
-Copy code
 python train_multiclass.py
 Evaluate the model:
 
-bash
-Copy code
+
 python evaluate.py
 Prerequisites
 Software Requirements:
@@ -80,7 +73,7 @@ Transfer learning using pre-trained DistilBERT.
 Fine-tuned on HASOC dataset with sequence padding.
 Folder Structure
 bash
-Copy code
+
 /project-folder
 │
 ├── preprocess.py         # Script for preprocessing the dataset
@@ -93,7 +86,8 @@ Copy code
 │   ├── test.csv          # Test data
 ├── models/               # Folder to save trained models
 └── README.md             # Project description and instructions
-Future Work
+
+Future Work:
 Integrating multilingual datasets to detect hate speech across languages.
 Employing ensemble methods to combine the strengths of multiple classifiers.
 Using explainability tools like SHAP or LIME to better understand model predictions.
