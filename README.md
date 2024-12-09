@@ -92,3 +92,10 @@ Integrating multilingual datasets to detect hate speech across languages.
 Employing ensemble methods to combine the strengths of multiple classifiers.
 Using explainability tools like SHAP or LIME to better understand model predictions.
 Expanding the dataset with more diverse and real-world examples of hate speech to improve generalization.
+
+
+### Usage Instructions
+- Open `final_Unigram_SVM_ML_Project.ipynb` for SVM-based hate speech detection.
+- Open `LSTM - Jupyter Notebook.ipynb` for LSTM-based hate speech detection.
+- Ensure the required datasets are placed in the correct directory before running the notebooks.
+
